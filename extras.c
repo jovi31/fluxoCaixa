@@ -10,3 +10,10 @@ void criaEspacos(char *palavraInicial, char *espacos, int tamanhoLinha){
 
     espacos[tam] = '\0';
 }
+
+void pausarExibicao(){
+    int aux;
+    printf("\n\n\t-> Digite [ENTER] para sair ...\n");
+    printf("\n\t+-------------------------------------------------------------------------+");
+    aux = getchar();
+}
