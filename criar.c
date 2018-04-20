@@ -9,7 +9,7 @@ void criarArquivo(){
         for(j=0; j<=1; j++){
             umItem.x = i;
             umItem.y = j;
-            umItem.valor = i+j;
+            umItem.valor = 0;
             fwrite(&umItem, sizeof(Item), 1, arquivo);
         }
     }

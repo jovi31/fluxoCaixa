@@ -6,9 +6,21 @@ typedef struct{
     float valor;
 }Item;
 
+// ENTRADA
+
+int lerLinhaItem();
+int lerDia();
+float lerValor();
+
 // CRIAR
 
 void criarArquivo();
+
+// ALTERAR
+
+void menuAlteracao(int ehRemocao);
+int posicaoDoItem(int x, int y);
+int alterarItem(int posicao, float valor);
 
 // CALCULO
 
